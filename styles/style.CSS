@@ -67,6 +67,10 @@ body {
   cursor: pointer;
 }
 
+.login:hover {
+  background-color: #1967D6;
+}
+
 /* main */
 /* first section */
 
@@ -109,6 +113,10 @@ body {
   justify-content: center;
   text-decoration: none;
   margin-bottom: 6.25rem; 
+}
+
+.gotosee:hover {
+  background-color: #1967D6;
 }
 
 .hipanda {
