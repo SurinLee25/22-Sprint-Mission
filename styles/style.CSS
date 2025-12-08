@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: clamp(14px, 1.1vw, 18px);
+}
+
+body {
+  margin: 0;
+  font-family: 'Pretendard', sans-serif;
+  font-size: 1rem;
+}
+
+
+/* header */
+.header {
+  background-color: #fff;
+  width: 100%;
+}
+
+.headinner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  max-width: 1120px;
+  margin: 0 auto; 
+  padding: 1rem 0;
+}
+
+.head-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.pandaMarket {
+  display: inline-flex;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #3692FF; 
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.login {
+  display: inline-flex;
+  background-color: #3692FF;
+  padding: 0 1.4375rem;
+  width: 8rem; 
+  height: 3rem; 
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;  
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* main */
+/* first section */
+
+.section1 {
+  display: flex;
+  background-color: #CFE5FF;
+  width: 100%;
+}
+
+.section1-inner {
+  display: flex;
+  max-width: 1120px;
+  height: 33.75rem; 
+  margin: 0 auto;  
+  justify-content: space-between;   
+  align-items: flex-end;
+}
+
+.minititle1 {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #374151;
+  margin-bottom: 2.5rem;
+}
+
+.gotosee {
+  display: inline-flex;
+  background-color: #3692FF;
+  padding: 1rem 7.75rem;
+  width: 22.3125rem;
+  height: 3.5rem; 
+  border-radius: 90px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: #fff;  
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 6.25rem; 
+}
+
+.hipanda {
+  width: 46.625rem;
+  height: 21.25rem; 
+}
+
+/* main - same setting */
+
+.section2, .section3, .section4{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 45rem; 
+}
+
+.section2-inner, .section3-inner, .section4-inner {
+  display: flex;
+  max-width: 988px;
+  height: 27.75rem;
+  margin: 0 auto;  
+  align-items: center;
+  border-radius: 8px;
+  background-color: #FCFCFC;
+  padding: 0 0.75rem; 
+  gap: 4rem;
+}
+
+.minititle2, .minititle3, .minititle4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #374151;
+}
+
+.HotItem, .search, .register {
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: #3692FF;
+  padding-bottom: 1.25rem; 
+  font-family: 'Abhaya Libre', sans-serif;
+}
+
+.Describe2, .Describe3, .Describe4{
+  padding-top: 1.875rem;
+  line-height: 2rem;  
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.iloveshirt, .stuff {
+  display: block;
+  width: 36.75rem;
+  height: 27.75rem;
+}
+
+/*inner seeting*/
+
+.section2-inner {
+  margin-top: 8.625rem;
+}
+
+.section3-inner {
+  flex-direction: row-reverse;
+}
+
+/* section text */
+
+.section2-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.section3-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4; 
+  align-items: flex-end;
+  text-align: right;
+}
+
+.section4-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* image */
+
+.wonder {
+  display: block;
+  width: 36.1875rem;
+  height: 27.75rem;
+}
+
+/* end of main */
+.section5 {
+  display: flex;
+  background-color: #CFE5FF;
+  width: 100%;
+}
+
+.section5-inner {
+  display: flex;
+  max-width: 1120px;
+  height: 33.75rem;
+  margin: 0 auto;  
+  justify-content: space-between;   
+  align-items: flex-end;
+}
+
+.trust {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #374151;
+  margin-bottom: 11.25rem;
+}
+
+.goodbyepanda {
+  width: 46.625rem;
+  height: 24.8125rem;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 10rem;
+  background-color: #111827;
+}
+
+.endofsite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1.875rem; 
+}
+
+.codeit, .privacyandFaq{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.0;
+  color: #9CA3AF;
+}
+
+.privacyandFaq {
+  display: flex;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.privacyandFaq a {
+  color: #9CA3AF;
+  text-decoration: none;
+}
+
+.sns {
+  display: flex;
+  gap: 1rem; 
+  cursor: pointer;
+}
